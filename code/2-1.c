@@ -1,4 +1,5 @@
 #include <stdio.h>
+//char* 포인터 배열에 문자열 주소 입력하고 값 출력
 
 int main() {
     char *alphas[] = {"abc", "def", "hij"};
