@@ -1,7 +1,6 @@
 #include <stdio.h>
 
-void double_elements(int *arr, int size) { 
-    int *p = arr;
+void double_elements(int *p, int size) { 
     for (int i=0; i<size; i++) {
      *p = 2*(*p);
       p++;
@@ -10,7 +9,7 @@ void double_elements(int *arr, int size) {
 int main() {
     int arr[5];
     
-    scanf("%d %d %d %d", &arr[0], &arr[1], &arr[2], &arr[3], &arr[4]);
+    scanf("%d %d %d %d %d", &arr[0], &arr[1], &arr[2], &arr[3], &arr[4]);
     
     double_elements(arr, 5);
     
@@ -18,3 +17,4 @@ int main() {
         printf("%d\n", arr[i]);
     }
     return 0;
+}
