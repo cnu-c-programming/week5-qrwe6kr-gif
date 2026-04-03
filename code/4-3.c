@@ -8,12 +8,11 @@ int main() {
     int size = 5;
     int index;
     scanf("%d", &index);
-    
-    if (index>=0 && index<size) {
-        printf("%d", arr[index]);
+
+    if (index >= size) {
+        printf("Error!\n");
     } else {
-        printf("Error!");
+        printf("%d\n", arr[index]);
     } 
-    
     return 0;
 }
