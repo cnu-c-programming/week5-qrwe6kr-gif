@@ -9,7 +9,7 @@ int main() {
     int *arr[] = {&a, &b, &c, &d};
     int **pp = arr;
     
-    int **vase = arr;
+    int **base = arr;
     
     printf("%1d\n", (char *)pp-(char*)base);
     
