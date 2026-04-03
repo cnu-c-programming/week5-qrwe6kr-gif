@@ -9,10 +9,10 @@ int main() {
     int index;
     scanf("%d", &index);
     
-    if (index>=0 && index<=size) {
-        printf("%d", 40);
+    if (index>=0 && index<size) {
+        printf("%d", arr[index]);
     } else {
-        printf("%s", "Error!" );
+        printf("Error!");
     } 
     
     return 0;
